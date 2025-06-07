@@ -212,7 +212,6 @@ public:
 
 		//!Constants
 		const Pr_Time CImageInterval;
-		const TEDROOMUInt8 Constante;
 
 
 		//!Variables
