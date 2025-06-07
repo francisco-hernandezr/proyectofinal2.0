@@ -1,0 +1,875 @@
+Current OBT is = 100000
+GSS Rx TM [5,1] Informative EvID = 0x1001 : START_UP 
+
+
+Current OBT is = 100001
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 0 minutes, 
+			Theta Yaw = 0 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100002
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 0 minutes, 
+			Theta Yaw = 0 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100003
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 0 minutes, 
+			Theta Yaw = 0 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100004
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 0 minutes, 
+			Theta Yaw = 0 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100005
+
+GSS Tx TC[12,5] FT_UAH_PHOTSAT_SERV_129_0020 step 0, Configura monitor 0 de valor para PID 13
+GSS Rx TM [1,1]
+GSS Rx TM [1,3]
+GSS Rx TM [1,7]
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 0 minutes, 
+			Theta Yaw = 0 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100006
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 0 minutes, 
+			Theta Yaw = 0 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100007
+
+GSS Tx TC[12,5] FT_UAH_PHOTSAT_SERV_129_0020 step 1, Configura monitor 1 de valor para PID 14
+
+GSS Tx TC[19,1] FT_UAH_PHOTSAT_SERV_129_0020 step 2, 0x4003, reset de actitud
+GSS Rx TM [1,1]
+GSS Rx TM [1,1]
+GSS Rx TM [1,3]
+GSS Rx TM [1,7]
+GSS Rx TM [1,3]
+GSS Rx TM [1,7]
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 0 minutes, 
+			Theta Yaw = 0 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100008
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 0 minutes, 
+			Theta Yaw = 0 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100009
+
+GSS Tx TC[19,4] FT_UAH_PHOTSAT_SERV_129_0020 step 3, Habilitamos acción
+GSS Rx TM [1,1]
+GSS Rx TM [1,3]
+GSS Rx TM [1,7]
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 0 minutes, 
+			Theta Yaw = 0 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100010
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 0 minutes, 
+			Theta Yaw = 0 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100011
+
+GSS Tx TC[12,1] FT_UAH_PHOTSAT_SERV_129_0020 step 4, Enable Monitoring PMODID 0
+GSS Rx TM [1,1]
+GSS Rx TM [1,3]
+GSS Rx TM [1,7]
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 0 minutes, 
+			Theta Yaw = 0 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+GSS Rx TM [12,12] PMONID = 0 PID 13 Check Value
+			 Mask of Theta Pitch W Control=255
+			 Value of Theta Pitch W Control=0
+			 expected value of Theta Pitch W Control=0
+			 prev status = Unchecked
+			 current status = Expected Value
+			 OBT = 100011
+
+
+Current OBT is = 100012
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 0 minutes, 
+			Theta Yaw = 0 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100013
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 0 minutes, 
+			Theta Yaw = 0 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100014
+
+GSS Tx TC[12,1] FT_UAH_PHOTSAT_SERV_129_0020 step 5, Enable Monitoring PMODID 1
+GSS Rx TM [1,1]
+GSS Rx TM [1,3]
+GSS Rx TM [1,7]
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 0 minutes, 
+			Theta Yaw = 0 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+GSS Rx TM [12,12] PMONID = 1 PID 14 Check Value
+			 Mask of Theta Yaw W Control=255
+			 Value of Theta Yaw W Control=0
+			 expected value of Theta Yaw W Control=0
+			 prev status = Unchecked
+			 current status = Expected Value
+			 OBT = 100014
+
+
+Current OBT is = 100015
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 0 minutes, 
+			Theta Yaw = 0 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100016
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 0 minutes, 
+			Theta Yaw = 0 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100017
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 0 minutes, 
+			Theta Yaw = 0 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100018
+
+GSS Tx TC[129,2] FT_UAH_PHOTSAT_SERV_129_0010 step 6, Inicializa Kp, Ki and Kd
+GSS Rx TM [1,1]
+GSS Rx TM [1,3]
+GSS Rx TM [1,7]
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 0 minutes, 
+			Theta Yaw = 0 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100019
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 0 minutes, 
+			Theta Yaw = 0 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100020
+
+GSS Tx TC[129,1] FT_UAH_PHOTSAT_SERV_129_0020 step 7, Set Theta Pitch, Theta Yaw and Number of Images
+GSS Rx TM [1,1]
+GSS Rx TM [1,3]
+GSS Rx TM [1,7]
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 0 minutes, 
+			Theta Yaw = 0 minutes, 
+			Theta Pitch Target = 1200 minutes, 
+			Theta Yaw Target = 600 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100021
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 261 minutes, 
+			Theta Yaw = 232 minutes, 
+			Theta Pitch Target = 1200 minutes, 
+			Theta Yaw Target = 600 minutes, 
+			Theta Pitch W Control=1, 
+			Theta Yaw W Control=0}
+GSS Rx TM [12,12] PMONID = 0 PID 13 Check Value
+			 Mask of Theta Pitch W Control=255
+			 Value of Theta Pitch W Control=1
+			 expected value of Theta Pitch W Control=0
+			 prev status = Expected Value
+			 current status = Unexpected
+			 OBT = 100021
+
+GSS Rx TM [5,4] High Severity Anomaly EvID 0x4003 
+GSS Rx TM [1,3]
+GSS Rx TM [1,7]
+
+Current OBT is = 100022
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 641 minutes, 
+			Theta Yaw = 324 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+GSS Rx TM [12,12] PMONID = 0 PID 13 Check Value
+			 Mask of Theta Pitch W Control=255
+			 Value of Theta Pitch W Control=0
+			 expected value of Theta Pitch W Control=0
+			 prev status = Unexpected
+			 current status = Expected Value
+			 OBT = 100022
+
+
+Current OBT is = 100023
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 599 minutes, 
+			Theta Yaw = 298 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100024
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 550 minutes, 
+			Theta Yaw = 274 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100025
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 506 minutes, 
+			Theta Yaw = 252 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100026
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 465 minutes, 
+			Theta Yaw = 231 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100027
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 427 minutes, 
+			Theta Yaw = 212 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100028
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 393 minutes, 
+			Theta Yaw = 195 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100029
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 361 minutes, 
+			Theta Yaw = 179 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100030
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 332 minutes, 
+			Theta Yaw = 165 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100031
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 305 minutes, 
+			Theta Yaw = 151 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100032
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 280 minutes, 
+			Theta Yaw = 139 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100033
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 257 minutes, 
+			Theta Yaw = 128 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100034
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 236 minutes, 
+			Theta Yaw = 117 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100035
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 217 minutes, 
+			Theta Yaw = 108 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100036
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 200 minutes, 
+			Theta Yaw = 99 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100037
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 183 minutes, 
+			Theta Yaw = 91 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100038
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 169 minutes, 
+			Theta Yaw = 84 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100039
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 155 minutes, 
+			Theta Yaw = 77 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100040
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 142 minutes, 
+			Theta Yaw = 71 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100041
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 131 minutes, 
+			Theta Yaw = 65 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100042
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 120 minutes, 
+			Theta Yaw = 60 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100043
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 110 minutes, 
+			Theta Yaw = 55 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100044
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 101 minutes, 
+			Theta Yaw = 50 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100045
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 93 minutes, 
+			Theta Yaw = 46 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100046
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 86 minutes, 
+			Theta Yaw = 42 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100047
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 79 minutes, 
+			Theta Yaw = 39 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100048
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 72 minutes, 
+			Theta Yaw = 36 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100049
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 66 minutes, 
+			Theta Yaw = 33 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100050
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 61 minutes, 
+			Theta Yaw = 30 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100051
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 56 minutes, 
+			Theta Yaw = 28 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100052
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 51 minutes, 
+			Theta Yaw = 25 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100053
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 47 minutes, 
+			Theta Yaw = 23 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100054
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 43 minutes, 
+			Theta Yaw = 21 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100055
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 40 minutes, 
+			Theta Yaw = 20 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100056
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 37 minutes, 
+			Theta Yaw = 18 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100057
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 34 minutes, 
+			Theta Yaw = 16 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100058
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 31 minutes, 
+			Theta Yaw = 15 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100059
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 28 minutes, 
+			Theta Yaw = 14 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100060
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 26 minutes, 
+			Theta Yaw = 13 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100061
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 24 minutes, 
+			Theta Yaw = 12 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100062
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 22 minutes, 
+			Theta Yaw = 11 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100063
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 20 minutes, 
+			Theta Yaw = 10 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100064
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 18 minutes, 
+			Theta Yaw = 9 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100065
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 17 minutes, 
+			Theta Yaw = 8 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100066
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 15 minutes, 
+			Theta Yaw = 7 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100067
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 14 minutes, 
+			Theta Yaw = 7 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100068
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 13 minutes, 
+			Theta Yaw = 6 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100069
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 12 minutes, 
+			Theta Yaw = 6 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100070
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 11 minutes, 
+			Theta Yaw = 5 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100071
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 10 minutes, 
+			Theta Yaw = 5 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100072
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 9 minutes, 
+			Theta Yaw = 4 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100073
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 8 minutes, 
+			Theta Yaw = 4 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100074
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 8 minutes, 
+			Theta Yaw = 4 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100075
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 7 minutes, 
+			Theta Yaw = 3 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100076
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 6 minutes, 
+			Theta Yaw = 3 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100077
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 6 minutes, 
+			Theta Yaw = 3 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100078
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 5 minutes, 
+			Theta Yaw = 2 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100079
+GSS Rx TM [3,25] SID 20 Param Values {
+			Observation Active = 0, 
+			Theta Pitch= 5 minutes, 
+			Theta Yaw = 2 minutes, 
+			Theta Pitch Target = 0 minutes, 
+			Theta Yaw Target = 0 minutes, 
+			Theta Pitch W Control=0, 
+			Theta Yaw W Control=0}
+
+Current OBT is = 100080
+
+GSS Tx TC[128,1] END FUNCTIONAL TESTS
+GSS Rx TM [1,1]
+GSS Rx TM [1,3]
+GSS Rx TM [1,7]
