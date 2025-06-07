@@ -110,7 +110,7 @@ void	CCObsMng::EDROOM_CTX_Top_0::FInit()
 	 
 	time.GetTime(); // Get current monotonic time
 	
-        time += Pr_Time(0,100000);
+    time += Pr_Time(0,100000);
    //Program absolute timer 
    AttCtrltTmer.InformAt( time ); 
 }
