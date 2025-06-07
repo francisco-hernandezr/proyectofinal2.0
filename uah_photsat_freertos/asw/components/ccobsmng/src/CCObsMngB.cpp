@@ -19,7 +19,7 @@ CCObsMng::EDROOM_CTX_Top_0::EDROOM_CTX_Top_0(CCObsMng &act,
 	ObsMng(EDROOMcomponent.ObsMng),
 	ObservTimer(EDROOMcomponent.ObservTimer),
 	AttCtrltTmer(EDROOMcomponent.AttCtrltTmer),
-	CImageInterval(0,5),
+	CImageInterval(0,500000),
 	VNextTimeOut(EDROOMpVarVNextTimeOut)
 {
 }
@@ -32,7 +32,7 @@ CCObsMng::EDROOM_CTX_Top_0::EDROOM_CTX_Top_0(EDROOM_CTX_Top_0 &context):
 	ObsMng(context.ObsMng),
 	ObservTimer(context.ObservTimer),
 	AttCtrltTmer(context.AttCtrltTmer),
-	CImageInterval(0,5),
+	CImageInterval(0,500000),
 	VNextTimeOut(context.VNextTimeOut)
 {
 
@@ -109,7 +109,8 @@ void	CCObsMng::EDROOM_CTX_Top_0::FInit()
 	//Timing Service useful methods
 	 
 	time.GetTime(); // Get current monotonic time
-	time.Add(0,100000); // Add X sec + Y microsec
+	
+        time = time + Pr_Time(0,100000);  //=+ 0 +=
    //Program absolute timer 
    AttCtrltTmer.InformAt( time ); 
 }
@@ -125,7 +126,12 @@ void	CCObsMng::EDROOM_CTX_Top_0::FProgAttitudeCtrl()
 	//Timing Service useful methods
 	 
 	time.GetTime(); // Get current monotonic time
-	time.Add(0,100000); // Add X sec + Y microsec
+	
+        time = time + Pr_Time(0,100000);  //=+ 0 +=
+
+        
+
+ 
    //Program absolute timer 
    AttCtrltTmer.InformAt( time ); 
 }
@@ -141,6 +147,8 @@ void	CCObsMng::EDROOM_CTX_Top_0::FProgTakeImage()
 	//Timing Service useful methods
 	 
 	interval = CImageInterval; // interval of X sec + Y microsec
+
+        //timers absolutos infor at e inform in relativos
    //Program relative timer 
    ObservTimer.InformIn( interval ); 
 }
@@ -203,8 +211,7 @@ bool	CCObsMng::EDROOM_CTX_Top_0::GReadyToObservation()
 
 CCObsMng::EDROOM_SUB_Top_0::EDROOM_SUB_Top_0 (CCObsMng&act):
 		EDROOM_CTX_Top_0(act,
-			VNextTimeOut),
-		VNextTimeOut(0)
+			VNextTimeOut)
 {
 
 }
@@ -272,16 +279,16 @@ void CCObsMng::EDROOM_SUB_Top_0::EDROOMBehaviour()
 
 				//Execute Action 
 				FTakeImage();
-				//Evaluate Branch FLastimage
+				//Evaluate Branch Lastimage
 				if( GLastImage() )
 				{
 					//Execute Actions 
 					FEndObservation();
 					FProgAttitudeCtrl();
 
-					//Branch taken is TakeImage_FLastimage
+					//Branch taken is TakeImage_Lastimage
 					edroomCurrentTrans.localId =
-						TakeImage_FLastimage;
+						TakeImage_Lastimage;
 
 					//Next State is Standby
 					edroomNextState = Standby;

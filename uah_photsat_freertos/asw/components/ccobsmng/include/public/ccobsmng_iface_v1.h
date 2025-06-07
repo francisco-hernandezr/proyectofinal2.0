@@ -205,7 +205,7 @@ public:
 			DoAttitudeCtrl_FToObservation,
 			DoAttitudeCtrl_ProgAttitudeCtrl,
 			TakeImage,
-			TakeImage_FLastimage,
+			TakeImage_Lastimage,
 			TakeImage_NoLastImage,
 			FExecObservationTC,
 			EDROOMMemoryTrans };
