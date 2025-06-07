@@ -38,18 +38,18 @@
 #ifdef FT_UAH_PHOTSAT_SERV_129_0010
 
 #define FT_0010_TIME_step0 (OBT_AFTER_POWER_ON + 5)
-#define FT_0010_TIME_step1 (OBT_AFTER_POWER_ON + 130)
+#define FT_0010_TIME_step1 (OBT_AFTER_POWER_ON + 85)
 
 EmuGSS_TCProgram129_1 prog_FT_0010_step_0(FT_0010_TIME_step0,
 		"FT_UAH_PHOTSAT_SERV_129_0010 step0:Command new observation",
-		10*60,20*60,7);
+		5*60,5*60,7);
 EmuGSS_TCProgram128_1 prog_FT_0010_step_1(FT_0010_TIME_step1,
         "END FUNCTIONAL TESTS");
 
 #endif
 
 //TODO 11 Complete FT_UAH_PHOTSAT_SERV_129_FDIR_0020
-//#define FT_UAH_PHOTSAT_SERV_129_FDIR_0020
+#define FT_UAH_PHOTSAT_SERV_129_FDIR_0020
 
 #ifdef FT_UAH_PHOTSAT_SERV_129_FDIR_0020
 
@@ -61,7 +61,7 @@ EmuGSS_TCProgram128_1 prog_FT_0010_step_1(FT_0010_TIME_step1,
 #define FT_0020_TIME_step5 (OBT_AFTER_POWER_ON + 14)
 #define FT_0020_TIME_step6 (OBT_AFTER_POWER_ON + 18)
 #define FT_0020_TIME_step7 (OBT_AFTER_POWER_ON + 20)
-#define FT_0020_TIME_step8 (OBT_AFTER_POWER_ON + 80)
+#define FT_0020_TIME_step8 (OBT_AFTER_POWER_ON + 100)
 
 
 EmuGSS_TCProgram12_5_Value_UINT8 prog_FT_0020_step_0(FT_0020_TIME_step1,
@@ -91,7 +91,7 @@ EmuGSS_TCProgram129_2 prog_FT_0020_step_6(FT_0020_TIME_step6,
 
 EmuGSS_TCProgram129_1 prog_FT_0020_step_7(FT_0020_TIME_step7,
         "FT_UAH_PHOTSAT_SERV_129_0020 step 7, Set Theta Pitch, Theta Yaw and Number of Images",
-	600,1200,7);
+	1200,600,7);
 
 EmuGSS_TCProgram128_1 prog_FT_0020_step_8(FT_0020_TIME_step8,
         "END FUNCTIONAL TESTS");
