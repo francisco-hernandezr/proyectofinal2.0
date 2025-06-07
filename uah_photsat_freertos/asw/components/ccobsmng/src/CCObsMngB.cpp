@@ -109,8 +109,7 @@ void	CCObsMng::EDROOM_CTX_Top_0::FInit()
 	//Timing Service useful methods
 	 
 	time.GetTime(); // Get current monotonic time
-	
-    time += Pr_Time(0,100000);
+	time +=Pr_Time(0,100000); 
    //Program absolute timer 
    AttCtrltTmer.InformAt( time ); 
 }
@@ -126,8 +125,7 @@ void	CCObsMng::EDROOM_CTX_Top_0::FProgAttitudeCtrl()
 	//Timing Service useful methods
 	 
 	time.GetTime(); // Get current monotonic time
-	
-        time +=Pr_Time(0,100000);
+	time +=Pr_Time(0,100000); 
 
         
 

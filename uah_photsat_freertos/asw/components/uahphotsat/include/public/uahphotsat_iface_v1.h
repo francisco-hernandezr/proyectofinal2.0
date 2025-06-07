@@ -185,12 +185,8 @@ public:
 			Ready};
 
 		//!Transition Identifiers
-<<<<<<< HEAD
-		enum TEDROOMTransitionID{Init, NextTimeCode,
-=======
 		enum TEDROOMTransitionID{Init,
 			 NextTimeCode,
->>>>>>> branch 'main' of https://github.com/francisco-hernandezr/proyectofinal2.0
 			EDROOMMemoryTrans };
 
 
