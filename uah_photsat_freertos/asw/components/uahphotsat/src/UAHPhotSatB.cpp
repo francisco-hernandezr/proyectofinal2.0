@@ -154,7 +154,7 @@ void UAHPhotSat::EDROOM_SUB_Top_0::EDROOMBehaviour()
 				edroomNextState = Ready;
 				break;
 			//Next Transition is  
-			case ( ):
+			case (NextTimeCode):
 				//Execute Action 
 				FEmuRxTimeCode();
 				//Next State is Ready
@@ -252,7 +252,7 @@ TEDROOMTransId UAHPhotSat::EDROOM_SUB_Top_0::EDROOMReadyArrival()
 				{
 
 					//Next transition is   
-					edroomCurrentTrans.localId=  ;
+					edroomCurrentTrans.localId = NextTimeCode;
 					edroomCurrentTrans.distanceToContext = 0;
 					edroomValidMsg=true;
 				 }

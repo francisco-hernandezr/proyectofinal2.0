@@ -78,7 +78,7 @@ void	CCObsMng::EDROOM_CTX_Top_0::FEndObservation()
 
 {
 
-VNextTimeout.GetTime();
+VNextTimeOut.GetTime();
 pus_service129_end_observation();
 
 }
@@ -110,7 +110,7 @@ void	CCObsMng::EDROOM_CTX_Top_0::FInit()
 	 
 	time.GetTime(); // Get current monotonic time
 	
-        time = time + Pr_Time(0,100000);  //=+ 0 +=
+        time += Pr_Time(0,100000);
    //Program absolute timer 
    AttCtrltTmer.InformAt( time ); 
 }
@@ -127,7 +127,7 @@ void	CCObsMng::EDROOM_CTX_Top_0::FProgAttitudeCtrl()
 	 
 	time.GetTime(); // Get current monotonic time
 	
-        time = time + Pr_Time(0,100000);  //=+ 0 +=
+        time +=Pr_Time(0,100000);
 
         
 
