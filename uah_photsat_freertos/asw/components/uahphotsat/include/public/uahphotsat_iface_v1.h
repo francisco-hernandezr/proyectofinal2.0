@@ -186,7 +186,7 @@ public:
 
 		//!Transition Identifiers
 		enum TEDROOMTransitionID{Init,
-			 ,
+			 NextTimeCode,
 			EDROOMMemoryTrans };
 
 
